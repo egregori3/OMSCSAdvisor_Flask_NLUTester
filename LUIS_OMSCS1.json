@@ -1,0 +1,133 @@
+{
+  "luis_schema_version": "2.1.0",
+  "versionId": "0.1",
+  "name": "OMSCS1",
+  "desc": "",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "admission"
+    },
+    {
+      "name": "application"
+    },
+    {
+      "name": "curriculum"
+    },
+    {
+      "name": "education"
+    },
+    {
+      "name": "foundation_courses"
+    },
+    {
+      "name": "gre"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "recommendation"
+    },
+    {
+      "name": "toefl"
+    },
+    {
+      "name": "transcript"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "when can i apply?",
+      "intent": "application",
+      "entities": []
+    },
+    {
+      "text": "where can i apply?",
+      "intent": "application",
+      "entities": []
+    },
+    {
+      "text": "what are the admission criteria for the oms cs degree program?",
+      "intent": "admission",
+      "entities": []
+    },
+    {
+      "text": "what are the foundational courses?",
+      "intent": "foundation_courses",
+      "entities": []
+    },
+    {
+      "text": "do applicants need to take the gre?",
+      "intent": "gre",
+      "entities": []
+    },
+    {
+      "text": "if my country’s primary language is english, do i still have to provide a toefl score?",
+      "intent": "toefl",
+      "entities": []
+    },
+    {
+      "text": "do i need to take the gre?",
+      "intent": "gre",
+      "entities": []
+    },
+    {
+      "text": "do i need to have my transcripts translated or converted?",
+      "intent": "transcript",
+      "entities": []
+    },
+    {
+      "text": "what is meant by official or unofficial transcripts?",
+      "intent": "transcript",
+      "entities": []
+    },
+    {
+      "text": "how many recommenders will i need?",
+      "intent": "recommendation",
+      "entities": []
+    },
+    {
+      "text": "what is the minimum gre score required for admission?",
+      "intent": "gre",
+      "entities": []
+    },
+    {
+      "text": "is the gre required?",
+      "intent": "gre",
+      "entities": []
+    },
+    {
+      "text": "what level of formal education is required?",
+      "intent": "education",
+      "entities": []
+    },
+    {
+      "text": "what are the minimum education requirements?",
+      "intent": "education",
+      "entities": []
+    },
+    {
+      "text": "do i need recommendations?",
+      "intent": "recommendation",
+      "entities": []
+    },
+    {
+      "text": "what is the curriculum, and how does it compare to the curriculum for the residential degree?",
+      "intent": "curriculum",
+      "entities": []
+    },
+    {
+      "text": "how many total hours are required?",
+      "intent": "curriculum",
+      "entities": []
+    }
+  ]
+}
